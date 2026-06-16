@@ -11,6 +11,9 @@ const App=()=>{
     function greet(){
         return "welcome"
     }
+    function greet_2(){
+        return "welcome to new one"
+    }
     return(
         <>
         <Userdata
@@ -20,6 +23,7 @@ const App=()=>{
         college={college}
         Address={Address}
         greet={greet}
+        greet2={greet_2}
         />
         </>
     )
