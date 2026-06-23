@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(234,225,225,0.6);
+    position: fixed;
+    top:0; bottom: 0;right: 0;left: 0;
+    backdrop-filter: blur(1px);
+}
+.modal{
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(203, 203, 221);
+}
+button{
+    padding:2px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+input:hover{
+    transform: none;
+}

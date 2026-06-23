@@ -1,43 +1,31 @@
 import React from "react";
 import { useState } from "react";
 const App =()=>{
-  const [count,setCount]=useState(0)
-  const [name,setname]=useState("akash")
-  const [state,setState]=useState(false)
-   function inc(){
-    setCount(count+1)
-   }
-   function dec(){
-    if (count>0){
-      setCount(count-1)
-    }
-   }
-   function reset(){
-    setCount(0)
-   }
-   function namechange(){
-    setname("aaku")
-   }
-   let message;
-   if (state){
-    message=<h1>welcome to home page</h1>
-   }else{
-    message=<h1>please login</h1>
-   }
+
+  const [show,setshow]=useState(false)
+  
    function toggle(){
-    setState(!state)
+    setshow(!show)
 
    }
+  
    return(
     <>
-    <h1>{count}</h1>
-    <button onClick={inc}>increment</button>
-    <button onClick={dec}>Decrement</button>
-    <button onClick={reset}>Reset</button><br />
-    <h1>{name}</h1>
-    <button onClick={namechange} >Change</button>
-    <h1>{message}</h1>
-    <button onClick={toggle}>click</button>
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQWHBwMiMx5ciSeV-QD2N7z3YMXbMwgkUga0K3UQTF4LNhoK_snbjhFpZNQQ2EYD_D4x4DL81XH9VWTFRMzD0fvkycAvOjoue6JITm8sMwbnhild-DXOXBoEg" alt=""height={"200px"} />
+    <h2>Apple iPhone 16 pro</h2>
+    <p><b>Price: </b>86000/-</p>
+    <p><b>Ratings: </b>⭐⭐⭐⭐</p>
+    <button onClick={toggle} >
+      {show?"show less":"show more"}
+    </button>
+    {show && <div>
+      <h2>Specification</h2>
+      <p><b>Storage:</b> 8GB and 256GB</p>
+      <p><b>Processor:</b> Snapdragon</p>
+      <p><b>Camera:</b> 50MP</p>
+      <p><b>Battery:</b> 5000mah</p>
+      <p><b>Size:</b> 6.7inch x 13cm XDR Display</p>
+    </div> }
     </>
    )
 }
