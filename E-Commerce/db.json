@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "name": "Rakesh",
+      "email": "Rakesh@gmail.com",
+      "mobile": "9898989898",
+      "password": "123",
+      "id": "xrK8VshXrrI"
+    }
+  ],
+  "products": [
+    {
+      "id":1,
+      "product_name":"Samsung F23",
+      "product_price":20000,
+      "product_category":"Electronics",
+      "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkW0XoptwYkyF03wUasmIJJBJ99uDZhWzjkIzozy31Fcr4gESfbsNgxDrx&s=10",
+      "product_description":"This phone features a 16.25 (6.4) Full HD+ Infinity-U Display and a fast refresh rate of up to 120 Hz so that you can enjoy a seamless browsing and stunning visual experience.",
+      "product_ratings":4
+    },
+    {
+      "id":2,
+      "product_name":"Oppo K13 Turbo",
+      "product_price":40000,
+      "product_category":"Electronics",
+      "product_image":"https://m.media-amazon.com/images/I/41Uc0VP3KxL._AC_UF1000,1000_QL80_.jpg",
+      "product_description":"The OPPO K13 Turbo (often associated with K-series queries) features a MediaTek Dimensity 8450 processor, a massive 7000 mAh battery, and an active cooling fan",
+      "product_ratings":4.5
+    },
+    {
+      "id":3,
+      "product_name":"Asus Vivobook",
+      "product_price":76000,
+      "product_category":"Electronics",
+      "product_image":"https://laptopmedia.com/wp-content/uploads/2024/01/1-7-e1678204902490.jpg",
+      "product_description":"The ASUS Vivobook series offers a versatile lineup of thin, lightweight, and stylish laptops tailored for students, professionals, and daily multimedia",
+      "product_ratings":4.9
+    },
+    {
+      "id":4,
+      "product_name":"Hatsun Curd",
+      "product_price":30,
+      "product_category":"Dairy",
+      "product_image":"https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/ciw/2025/12/17/22823919-b4f6-4158-b97b-45b44af7a024_GZ2GYC77DM_MN_17122025.png",
+      "product_description":"Hatsun Curd is a thick, creamy, and preservative-free dairy product made from pasteurized toned milk. It is widely used for everyday meals, raitas, and lassis.",
+      "product_ratings":4.5
+    },
+    {
+      "id":5,
+      "product_name":"Casual Sneaker",
+      "product_price":3000,
+      "product_category":"Fashion",
+      "product_image":"https://redtape.com/cdn/shop/files/RSL0536_1_3114676c-7f12-48b1-afc5-393e31e84777.jpg?v=1756810377",
+      "product_description":"Reliable and versatile in shape and design, Red Tape's casual sneaker shoes for men are an awesome piece delivering styles that blend with rich materials. A soft low-cut pattern with a durable EVA sole enhances the aesthetic appeal and ensures a snug fit.",
+      "product_ratings":4.1
+    }
+   
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
