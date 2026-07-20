@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate()
     function login(e){
       e.preventDefault()
-      axios.get("http://localhost:3000/users")
+      axios.get("http://localhost:5000/users")
       .then(x=>{
         let users = x.data
         let result = users.find((x)=>{

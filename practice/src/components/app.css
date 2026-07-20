@@ -1,0 +1,18 @@
+.counter h1{
+    color: red;
+}
+.counter button{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: yellow;
+}
+.password{
+    background-color: powderblue;
+}
+.darktheme{
+    background-color: goldenrod;
+}
+::placeholder{
+    color: rgb(207, 185, 185);
+}

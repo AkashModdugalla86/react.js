@@ -15,7 +15,7 @@ const Signup=(props)=>{
         <input type="text" placeholder="Enter your email" /><br /><br />
         <input type="text" placeholder="Enter your mobile no." /><br /><br />
         <input type="text"placeholder="Enter your password" /><br /><br />
-        <button>SignUp</button>
+        <button >SignUp</button>
         <button onClick={close}>Cancel</button>
 
       </div>
@@ -24,3 +24,6 @@ const Signup=(props)=>{
   )
 }
 export default Signup
+
+
+
