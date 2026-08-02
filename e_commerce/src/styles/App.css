@@ -1,0 +1,99 @@
+*{
+  padding: 0;margin: 0;
+}
+.container{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  gap: 30px;
+}
+#signup-btn,#login-btn{
+width: 70px;
+height: 25px;
+background-color: rgb(8, 147, 239);
+border: none;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.signup-form,.login-form{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.signup-form h2, .login-form h2{
+  text-align: center;
+  color: rgb(8, 147, 239);
+  margin: 15px;
+}
+.signup-form form, .login-form form{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgb(8, 147, 239);
+  padding: 10px;
+  border-radius: 10px;
+}
+#signup,#login,#view-btn{
+  background-color: rgb(8, 147, 239);
+  border: none;
+  height: 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px; width: 50px;
+  cursor: pointer;
+}
+form input{
+  height: 20px;
+}
+
+
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 75px;
+width: 100%;
+background-color: rgb(8, 147, 239);
+color: white;
+position:sticky;
+top: 0px;
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+  }
+.product-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 50px;
+}
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 0 4px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.right>h2{
+  color:black;
+}
+.login_link{
+  color: black;
+  text-decoration: none;
+}
+.login_link:hover{
+  color: white;
+}

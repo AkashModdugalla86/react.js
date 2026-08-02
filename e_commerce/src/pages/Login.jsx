@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate()
     function login(e){
       e.preventDefault()
-      axios.get("http://localhost:5000/users")
+      axios.get("http://localhost:4000/users")
       .then(x=>{
         let users = x.data
         let result = users.find((x)=>{
@@ -31,7 +31,7 @@ const Login = () => {
   return (
     <>
       <div className='login-form'>
-        <form onSubmit={login}>
+       <center><form onSubmit={login}>
           <h2>Login page</h2>
           <input 
           type="text" 
@@ -51,7 +51,7 @@ const Login = () => {
 
           <button id='login'>Login</button>
           <p style={{textAlign:"center"}}>New User? <Link to={"/signup"}>Signup</Link></p>
-        </form>
+        </form></center> 
       </div>
     </>
   )

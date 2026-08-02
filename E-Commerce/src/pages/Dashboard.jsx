@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (
    <>
     <Navbar/>
-    <center><h1>Welcome, {username}</h1></center>
+    <center><h1>Welcome {username}</h1></center>
     <div className="product-container">
       {products.map((x)=>{
       return <div className='product'>

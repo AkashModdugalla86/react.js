@@ -31,7 +31,7 @@ const dummy = () => {
         <ol>
           {result2.map((x)=>{
             return <li> 
-            <img src={x.Image} alt="" height={"200px"}/>{x.name} </li>
+            {x.name} </li>
           })}
         </ol>
       ):(<p>No products Found</p> ) }
